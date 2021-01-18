@@ -1,104 +1,94 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-.card{
-padding-top: 20px;
-  display:block;
-  margin-left:auto;
-  margin-right: auto;
-  margin-top: 400px;
-  margin-bottom: 400px;
-  height:200px;
-  width:300px;
-  border: 15px 15px 0 0;
-
-}
-.white{
-  background-color:white;
-}
-.image{
-  border-radius: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  position: relative;
-  bottom:50px;
-  top:50px;
-}
-.age{
-  color:hsl(227, 10%, 46%);
-  padding-left: 12px;
-  font-weight: 400;
-}
-
-.name{
-font-weight: 700;
-text-align: center;
-padding-top:10px;
-}
-.place{
-  color:hsl(227, 10%, 46%);
-  font-weight: 400;
-  font-size:15px;
-  text-align:center;
-  position: relative;
-  bottom:10px;
-}
-hr{
-background-color: hsl(0, 0%, 59%);
-width:25%;
-height:0.01%
-}
-.about{
-  float: left;
-  width: 33.33%;
-  text-align: center;
-}
-.fame::after {
-  content: "";
-  clear: both;
-  display: block;
-}
-.fig{
-  font-weight: 700;
-  font-size: 15px;
-}
-.info{
-  font-size: 12px;
-  position: relative;
-  bottom:10px;
-  color: hsl(0, 0%, 59%);
-}
-html, body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-.card-head{
-  margin-top: 100px;
-  height: auto;
-  background-image: url(images/bg-pattern-card.svg);
-  width:300px;
-  background-size: cover;
-  margin-left:auto;
-  margin-right: auto;
-  display: block;
-  border-radius: 10%;
-}
 body{
-  
-  width:1440px;
   font-size:18px;
-  font-family: kumbh sans;
-  background-color: hsl(185, 75%, 39%);
+  font-family: "kumbh sans";
   background: bottom 40vh right 50vw url('images/bg-pattern-top.svg') no-repeat,
               top 50vh left 50vw url('images/bg-pattern-bottom.svg') no-repeat,
               hsl(185, 75%, 39%);
   background-attachment: fixed;
+  background-color:  hsl(185, 75%, 39%);
+
 }
 
+/* conatiner */
+
+.container-fluid{
+  padding: 15% 50%;
+  margin-left:-15%;
+}
+
+.container{
+  background: url('images/bg-pattern-card.svg') no-repeat;
+  background-size: cover;
+  width: 25rem;
+  height: 10rem;
+  display: block;
+  border-top-left-radius: 10%;
+  border-top-right-radius:10%;
+}
+
+.card-plate{
+   background-color:#fff;
+   width: 25rem;
+   text-align: center;
+   border-bottom-left-radius: 10%;
+   border-bottom-right-radius:10%;
+}
+
+.image{
+  border-radius: 100%;
+  margin-top: 3%;
+  position:relative;
+  bottom:3rem;
+}
+
+.about{
+  margin-top:-10%;
+  padding-bottom: 1%;
+}
+
+.name{
+  color:hsl(229, 23%, 23%);
+  font-size:1.5rem;
+  font-weight: 700;
+  margin-top: 2%;
+  font-family:"kumbh sans-bold";
+}
+
+.age{
+  color:hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+.place{
+  color:hsl(0, 0%, 59%);
+  font-weight: 400;
+  margin-top:-5%;
+}
+
+.row{
+  padding: 3% 5% ;
+}
+
+.fig{
+  color:hsl(229, 23%, 23%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.info{
+  color:hsl(227, 10%, 46%);
+  font-weight: 700;
+  font-size:0.9rem;
+  margin-top:-15%;
+}
+
+/* attribution */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
